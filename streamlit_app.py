@@ -14,8 +14,16 @@ with tab1:
         placeholder="e.g. ERFT"
     )
 
+   
+
    # word1 = st.expander("FLU"):
    #     st.write("The chart above shows some numbers I picked for you. I rolled actual dice for these, so they're *guaranteed* to be random.")
+
+   st.divider()  # 👈 Draws a horizontal rule
+
+   st.write("ERFT - Enterprise Risk and Finance Technology")
+   
+   st.divider() 
 
 
    
