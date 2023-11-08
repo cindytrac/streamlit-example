@@ -49,7 +49,13 @@ with tab2:
 
   
 with tab3:
-   header3 = st.header("An owl")
+   header3 = st.header("Upload a File to Parse for Acronyms")
+   uploaded_files = st.file_uploader("Choose a PDF or TXT file", accept_multiple_files=True)
+   for uploaded_file in uploaded_files:
+       bytes_data = uploaded_file.read()
+       st.write("filename:", uploaded_file.name)
+       st.write(bytes_data)
+   
 
 with tab4:
    header4 = st.header("Project ACORN")
