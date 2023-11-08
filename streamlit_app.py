@@ -70,18 +70,18 @@ with tab3:
    header3 = st.header("Upload a File to Parse for Acronyms")
    uploaded_files = st.file_uploader("Choose a PDF or TXT file", accept_multiple_files=True)
    for uploaded_file in uploaded_files:
-       bytes_data = uploaded_file.read()
-       st.write("File Uploaded:", uploaded_file.name)
-       # st.write(bytes_data)
-       st.subheader("Acronyms Detected")
+      bytes_data = uploaded_file.read()
+      st.write("File Uploaded:", uploaded_file.name)
+      # st.write(bytes_data)
+      st.subheader("Acronyms Detected")
 
-       a1 = st.checkbox('FLU')
-       a2 = st.checkbox('GBAM')
-       a3 = st.checkbox('ORCIT')
-       a4 = st.checkbox('SDAR')
-       a5 = st.checkbox('SLA')
-       a6 = st.checkbox('BofA')
-       a7 = st.checkbox('MRA')
+      a1 = st.checkbox('FLU')
+      a2 = st.checkbox('GBAM')
+      a3 = st.checkbox('ORCIT')
+      a4 = st.checkbox('SDAR')
+      a5 = st.checkbox('SLA')
+      a6 = st.checkbox('BofA')
+      a7 = st.checkbox('MRA')
      
       
 
