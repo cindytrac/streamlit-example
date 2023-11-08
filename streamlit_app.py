@@ -3,10 +3,12 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
+tab1, tab2, tab3 = st.tabs(["Home", "Dog", "Owl"])
 
 with tab1:
-   st.header("A cat")
+   st.header("Home")
+   title = st.text_input('Movie title', 'Life of Brian')
+   st.write('The current movie title is', title)
   
 
 with tab2:
