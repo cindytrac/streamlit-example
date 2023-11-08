@@ -3,19 +3,25 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 
-tab1, tab2, tab3, tab4 = st.tabs(["Home", "Submit an Acronym", "Parse a Document", "About Project ACORN"])
+tab1, tab2, tab3, tab4 = st.tabs(["Home", "Submit", "Upload", "About Project ACORN"])
 
 with tab1:
-   title = st.text_input('Input the ACRONYM you want to add.', 'e.g. BofA, ERFT')
+   st.header("ERFT Dictionary")
+   
+   text_input = st.text_input(
+        "Search for an acronym",
+        label_visibility="visible",
+        placeholder="e.g. BofA, ERFT"
+    )
    
 
 with tab2:
    st.header("ERFT Dictionary")
    
    text_input = st.text_input(
-        "Enter the ACRONYM you would like to add",
+        "Enter the ACRONYM you would like to add.",
         label_visibility="visible",
-        placeholder="placeholder"
+        placeholder="e.g. BofA, ERFT"
     )
  
 with tab3:
