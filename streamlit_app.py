@@ -6,7 +6,7 @@ import streamlit as st
 tab1, tab2, tab3, tab4 = st.tabs(["Home", "Submit", "Upload", "About Project ACORN"])
 
 with tab1:
-   st.header("ERFT Dictionary")
+   header1 = st.header("ERFT Dictionary")
    
    text_input9 = st.text_input(
         "Search for an acronym",
@@ -21,7 +21,7 @@ with tab1:
    
 
 with tab2:
-   st.header("Submit an Acronym")
+   header2 = st.header("Submit an Acronym")
    
    text_input1 = st.text_input(
         "Enter the ACRONYM you would like to add.",
@@ -54,8 +54,8 @@ with tab2:
     )
  
 with tab3:
-   st.header("An owl")
+   header3 = st.header("An owl")
 
 with tab4:
-   st.header("Project ACORN")
+   header4 = st.header("Project ACORN")
  
