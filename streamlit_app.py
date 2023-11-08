@@ -75,7 +75,6 @@ with tab3:
        # st.write(bytes_data)
        st.subheader("Acronyms Detected")
 
-       st.write("""
             a1 = st.checkbox('FLU')
             a2 = st.checkbox('GBAM')
             a3 = st.checkbox('ORCIT')
@@ -83,7 +82,7 @@ with tab3:
             a5 = st.checkbox('SLA')
             a6 = st.checkbox('BofA')
             a7 = st.checkbox('MRA')
-       """)
+     
       
 
    
