@@ -14,10 +14,10 @@ with tab1:
         placeholder="e.g. ERFT"
     )
 
-with st.expander("FLU"):
+with st.expander("FLU") e1:
     st.write("The chart above shows some numbers I picked for you. I rolled actual dice for these, so they're *guaranteed* to be random.")
 
-with st.expander("ERFT"):
+with st.expander("ERFT") e2:
     st.write("The chart above shows some numbers I picked for you. I rolled actual dice for these, so they're *guaranteed* to be random.")
    
    
