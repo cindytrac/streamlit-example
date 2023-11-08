@@ -62,7 +62,7 @@ with tab2:
    #      label_visibility="visible",
    #      placeholder="e.g. ERFT (General)"
    #  )
-   option = st.selectbox("What subteam does this acronym belong to (if applicable)?", ('ERFT (General)', 'GCORE', 'GFRR', 'Trade Surveillance', 'Other (Select to Input)'))
+   option = st.selectbox("What subteam does this acronym belong to (if applicable)?", ('ERFT (General)', 'GCOR', 'GFRR', 'Trade Surveillance', 'Other (Select to Input)'))
 
    
 
