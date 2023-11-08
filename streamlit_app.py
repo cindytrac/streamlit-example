@@ -15,9 +15,7 @@ with tab1:
         label_visibility="visible",
         placeholder="e.g. ERFT"
     )
-
    
-
    # word1 = st.expander("FLU"):
    #     st.write("The chart above shows some numbers I picked for you. I rolled actual dice for these, so they're *guaranteed* to be random.")
 
@@ -27,11 +25,11 @@ with tab1:
    st.write("See ERFT Line of Business and Link for more information.")
    st.divider() 
 
-   st.subheader("ERFT - Enterprise Risk and Finance Technology")
+   st.subheader("ACRONYM - What It Stands For")
 
    st.divider()  # 👈 Draws a horizontal rule
 
-   st.subheader("ERFT - Enterprise Risk and Finance Technology")
+   st.subheader("ACRONYM - What It Stands For")
    
    st.divider() 
 
