@@ -13,6 +13,21 @@ with tab1:
         label_visibility="visible",
         placeholder="e.g. ERFT"
     )
+
+with st.expander("FLU"):
+    st.write(\"\"\"
+        The chart above shows some numbers I picked for you.
+        I rolled actual dice for these, so they're *guaranteed* to
+        be random.
+    \"\"\")
+
+with st.expander("ERFT"):
+    st.write(\"\"\"
+        The chart above shows some numbers I picked for you.
+        I rolled actual dice for these, so they're *guaranteed* to
+        be random.
+    \"\"\")
+   
    
 
 with tab2:
@@ -31,6 +46,12 @@ with tab2:
     )
 
    text_input3 = st.text_input(
+        ("Describe the acronym and give some content."),
+        label_visibility="visible",
+        placeholder="e.g. ERFT is a sub line of business within Bank of America. ERFT is responsible for "
+    )
+
+   text_input4 = st.text_input(
         ("Describe the acronym and give some content."),
         label_visibility="visible",
         placeholder="e.g. ERFT is a sub line of business within Bank of America. ERFT is responsible for "
