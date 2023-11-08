@@ -6,7 +6,7 @@ import streamlit as st
 tab1, tab2, tab3 = st.tabs(["Home", "Dog", "Owl"])
 
 with tab1:
-   st.header("Home")
+   st.header("ERFT Dictionary")
    title = st.text_input('Acronym', 'e.g. BofA, ERFT')
    # st.write('Acronym', title)
   
