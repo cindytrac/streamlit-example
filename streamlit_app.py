@@ -7,8 +7,8 @@ tab1, tab2, tab3 = st.tabs(["Home", "Dog", "Owl"])
 
 with tab1:
    st.header("Home")
-   title = st.text_input('Movie title', 'Life of Brian')
-   st.write('The current movie title is', title)
+   title = st.text_input('Acronym', 'e.g. BofA, ERFT')
+   # st.write('Acronym', title)
   
 
 with tab2:
