@@ -8,7 +8,7 @@ tab1, tab2, tab3, tab4 = st.tabs(["Home", "Submit", "Upload", "About Project ACO
 with tab1:
    st.header("ERFT Dictionary")
    
-   text_input = st.text_input(
+   text_input9 = st.text_input(
         "Search for an acronym",
         label_visibility="visible",
         placeholder="e.g. ERFT"
