@@ -14,7 +14,7 @@ with tab1:
         placeholder="e.g. ERFT"
     )
 
-   with st.expander("FLU"):
+   word1 = st.expander("FLU"):
        st.write("The chart above shows some numbers I picked for you. I rolled actual dice for these, so they're *guaranteed* to be random.")
 
 
