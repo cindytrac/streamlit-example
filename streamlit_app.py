@@ -4,7 +4,6 @@ import pandas as pd
 import streamlit as st
 
 tab1, tab2, tab3, tab4 = st.tabs(["Home", "Submit", "Upload", "About Project ACORN"])
-e1, e2, e3 = st.expander(["FLU", "ERFT"])
 
 with tab1:
    st.header("ERFT Dictionary")
@@ -15,12 +14,10 @@ with tab1:
         placeholder="e.g. ERFT"
     )
 
-with e1:
+with st.expander("FLU"):
     st.write("The chart above shows some numbers I picked for you. I rolled actual dice for these, so they're *guaranteed* to be random.")
 
-with e2:
-    st.write("The chart above shows some numbers I picked for you. I rolled actual dice for these, so they're *guaranteed* to be random.")
-   
+
    
 
 with tab2:
