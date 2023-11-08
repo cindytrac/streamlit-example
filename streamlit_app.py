@@ -21,14 +21,19 @@ with tab2:
    text_input1 = st.text_input(
         "Enter the ACRONYM you would like to add.",
         label_visibility="visible",
-        placeholder="e.g. ERFT",
-      value=" this acronym "
+        placeholder="e.g. ERFT"
     )
 
    text_input2 = st.text_input(
-        ("What does " + text_input1 + " stand for?"),
+        ("What does the acronym stand for?"),
         label_visibility="visible",
         placeholder="e.g. Enterprise Risk and Finance Technology"
+    )
+
+   text_input3 = st.text_input(
+        ("Describe the acronym and give some content."),
+        label_visibility="visible",
+        placeholder="e.g. ERFT is a sub line of business within Bank of America. ERFT is responsible for "
     )
  
 with tab3:
