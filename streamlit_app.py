@@ -16,7 +16,7 @@ with tab1:
    
 
 with tab2:
-   st.header("ERFT Dictionary")
+   st.header("Submit an Acronym")
    
    text_input = st.text_input(
         "Enter the ACRONYM you would like to add.",
