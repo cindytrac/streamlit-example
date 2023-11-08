@@ -23,7 +23,6 @@ with tab1:
 
    st.write("ERFT - Enterprise Risk and Finance Technology")
    st.write("See ERFT Line of Business and Link for more information.")
-   
    st.divider() 
 
    st.write("ERFT - Enterprise Risk and Finance Technology")
