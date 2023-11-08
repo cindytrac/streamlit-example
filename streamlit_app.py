@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 tab1, tab2, tab3, tab4 = st.tabs(["Home", "Submit", "Upload", "About Project ACORN"])
-e1, e2, e3 = st.expanders(["FLU", "ERFT"])
+e1, e2, e3 = st.expander(["FLU", "ERFT"])
 
 with tab1:
    st.header("ERFT Dictionary")
