@@ -11,17 +11,23 @@ with tab1:
    text_input = st.text_input(
         "Search for an acronym",
         label_visibility="visible",
-        placeholder="e.g. BofA, ERFT"
+        placeholder="e.g. ERFT"
     )
    
 
 with tab2:
    st.header("Submit an Acronym")
    
-   text_input = st.text_input(
+   text_input1 = st.text_input(
         "Enter the ACRONYM you would like to add.",
         label_visibility="visible",
-        placeholder="e.g. BofA, ERFT"
+        placeholder="e.g. ERFT"
+    )
+
+   text_input2 = st.text_input(
+        "What does the acronym stand for?",
+        label_visibility="visible",
+        placeholder="e.g. Enterprise Risk and Finance Technology"
     )
  
 with tab3:
