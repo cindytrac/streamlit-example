@@ -42,17 +42,12 @@ with tab2:
     )
 
    text_input4 = st.text_input(
-        ("Describe the acronym and give some content."),
-        label_visibility="visible",
-        placeholder="e.g. ERFT is a sub line of business within Bank of America. ERFT is responsible for "
-    )
-
-   text_input4 = st.text_input(
         ("What subteam does this acronym belong to (if applicable)?"),
         label_visibility="visible",
         placeholder="e.g. ERFT is a sub line of business within Bank of America. ERFT is responsible for "
     )
- 
+
+  
 with tab3:
    header3 = st.header("An owl")
 
