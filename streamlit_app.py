@@ -21,15 +21,15 @@ with tab1:
 
    st.divider()  # 👈 Draws a horizontal rule
 
-   st.write("ERFT - Enterprise Risk and Finance Technology")
+   st.subheader("ERFT - Enterprise Risk and Finance Technology")
    st.write("See ERFT Line of Business and Link for more information.")
    st.divider() 
 
-   st.write("ERFT - Enterprise Risk and Finance Technology")
+   st.subheader("ERFT - Enterprise Risk and Finance Technology")
 
    st.divider()  # 👈 Draws a horizontal rule
 
-   st.write("ERFT - Enterprise Risk and Finance Technology")
+   st.subheader("ERFT - Enterprise Risk and Finance Technology")
    
    st.divider() 
 
