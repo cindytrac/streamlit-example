@@ -5,7 +5,6 @@ import streamlit as st
 import pandas as pd
 from io import StringIO
 
-image_url = "https://www.flaticon.com/free-icon/acorn_676498?term=acorn&page=1&position=5&origin=search&related_id=676498"
 header1 = st.header("ERFT Acronym Dictionary")
 
 tab1, tab2, tab3, tab4 = st.tabs(["Home", "Submit", "Upload", "About Project ACORN"])
@@ -68,7 +67,8 @@ with tab2:
    #  )
    option = st.selectbox("What subteam does this acronym belong to (if applicable)?", ('ERFT (General)', 'GCOR', 'GFRR', 'Trade Surveillance', 'Other (Select to Input)'))
 
-   
+   if st.button("Submit Acronym"):
+    st.write("Acronym was submitted!")
 
   
 with tab3:
