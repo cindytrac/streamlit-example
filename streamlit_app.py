@@ -80,7 +80,7 @@ with tab3:
       st.write("File Uploaded:", uploaded_file.name)
       # st.write(bytes_data)
       st.subheader("Acronyms Detected")
-      st.write("Select acronyms you would like to submit for tentative addition to dictionary."
+      st.write("Select acronyms you would like to submit for tentative addition to dictionary.")
 
       a1 = st.checkbox('FLU')
       a2 = st.checkbox('GBAM')
