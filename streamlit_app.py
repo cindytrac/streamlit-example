@@ -67,8 +67,10 @@ with tab2:
    #  )
    option = st.selectbox("What subteam does this acronym belong to (if applicable)?", ('ERFT (General)', 'GCOR', 'GFRR', 'Trade Surveillance', 'Other (Select to Input)'))
 
+   
+   st.write('<style>div.Widget.row-widget.stButton {display: flex; justify-content: center;}</style>', unsafe_allow_html=True)
    if st.button("Submit Acronym"):
-    st.write("Acronym was submitted!")
+      st.write("Acronym was submitted!")
 
   
 with tab3:
