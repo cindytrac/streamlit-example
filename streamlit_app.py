@@ -92,7 +92,7 @@ with tab3:
       a7 = st.checkbox('MRA')
 
       if st.button("Submit Acronym(s)"):
-      st.write("Submitted!")
+         st.write("Submitted!")
      
       
 
