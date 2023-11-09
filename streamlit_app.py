@@ -7,7 +7,6 @@ from io import StringIO
 
 tab1, tab2, tab3, tab4 = st.tabs(["Home", "Submit", "Upload", "About Project ACORN"])
 
-st.markdown('<h1 style="text-align: center;"><img src="https://www.flaticon.com/free-icon/acorn_676498?term=acorn&page=1&position=5&origin=search&related_id=676498" alt="Header Image" width="300"></h1>',unsafe_allow_html=True)
 
 with tab1:
    header1 = st.header("ERFT Dictionary")
