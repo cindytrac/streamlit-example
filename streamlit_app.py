@@ -5,6 +5,8 @@ import streamlit as st
 import pandas as pd
 from io import StringIO
 
+header1 = st.header("ERFT Dictionary")
+
 tab1, tab2, tab3, tab4 = st.tabs(["Home", "Submit", "Upload", "About Project ACORN"])
 
 
