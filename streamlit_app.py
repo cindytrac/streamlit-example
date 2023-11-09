@@ -1,4 +1,4 @@
-import altair as alt
+cimport altair as alt
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -11,10 +11,9 @@ tab1, tab2, tab3, tab4 = st.tabs(["Home", "Submit", "Upload", "About Project ACO
 
 
 with tab1:
-   header1 = st.header("ERFT Dictionary")
+   header1 = st.header("Search for Acronym")
    
    text_input9 = st.text_input(
-        "Search for an acronym",
         label_visibility="visible",
         placeholder="e.g. ERFT"
     )
