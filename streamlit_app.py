@@ -5,7 +5,8 @@ import streamlit as st
 import pandas as pd
 from io import StringIO
 
-header1 = st.header("ERFT Dictionary")
+image_url = "https://www.flaticon.com/free-icon/acorn_676498?term=acorn&page=1&position=5&origin=search&related_id=676498"
+header1 = st.header("ERFT Acronym Dictionary")
 
 tab1, tab2, tab3, tab4 = st.tabs(["Home", "Submit", "Upload", "About Project ACORN"])
 
