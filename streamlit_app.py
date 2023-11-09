@@ -57,7 +57,7 @@ with tab2:
    text_input3 = st.text_input(
         ("Describe the acronym and give some content."),
         label_visibility="visible",
-        placeholder="e.g. ERFT is a sub line of business within Bank of America. ERFT is responsible for "
+        placeholder="e.g. ERFT is a sub line of business within Bank of America. ERFT is responsible for... "
     )
 
    # text_input4 = st.text_input(
@@ -90,6 +90,9 @@ with tab3:
       a5 = st.checkbox('SLA')
       a6 = st.checkbox('BofA')
       a7 = st.checkbox('MRA')
+
+      if st.button("Submit Acronym(s)"):
+      st.write("Submitted!")
      
       
 
