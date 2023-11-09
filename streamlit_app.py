@@ -36,6 +36,13 @@ with tab1:
    
    st.divider() 
 
+   with st.beta_expander("Expandable Section 1"):
+       st.write("This is the content of the first expandable section.")
+   
+   # Create the second expandable section
+   with st.beta_expander("Expandable Section 2"):
+       st.write("This is the content of the second expandable section.")
+
 
    
 
