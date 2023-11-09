@@ -23,27 +23,21 @@ with tab1:
    #     st.write("The chart above shows some numbers I picked for you. I rolled actual dice for these, so they're *guaranteed* to be random.")
 
    st.divider()  # 👈 Draws a horizontal rule
-
-   st.subheader("ERFT - Enterprise Risk and Finance Technology")
-   st.write("See ERFT Line of Business and Link for more information.")
+   st.subheader("AIT - Application Inventory Tool")
+   
    st.divider() 
+   st.subheader("CCAR - Comprehensive Capital Analysis and Review")
 
-   st.subheader("ACRONYM - What It Stands For")
+   
+   
 
    st.divider()  # 👈 Draws a horizontal rule
 
-   st.subheader("ACRONYM - What It Stands For")
+   st.subheader("ERFT - Enterprise Risk and Finance Technology")
    
    st.divider() 
 
-   with st.beta_expander("Expandable Section 1"):
-       st.write("This is the content of the first expandable section.")
    
-   # Create the second expandable section
-   with st.beta_expander("Expandable Section 2"):
-       st.write("This is the content of the second expandable section.")
-
-
    
 
 with tab2:
