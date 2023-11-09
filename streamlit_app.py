@@ -14,7 +14,7 @@ with tab1:
    header1 = st.header("Search for Acronym")
    
    text_input9 = st.text_input(
-       "Enter words or the acronyms you're looking for."
+       "Enter words or the acronyms you're looking for.",
         label_visibility="visible",
         placeholder="e.g. ERFT"
     )
